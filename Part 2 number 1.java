@@ -1,12 +1,12 @@
-import java.util.Scanner;
+import java.util.Scanner; //Scanner initialization 
 
 class Main {
   public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in); declaring Scanner
 
     System.out.print("Enter the region that you're from: ");
     
-    String data1 = input.nextLine();
+    String data1 = input.nextLine(); //deca
     
     if (data1.equals("Toronto")) {
       System.out.println("CN Tower, Rogers Center, and Royal Ontario Museum are the places that you might want to visit in Toronto");
