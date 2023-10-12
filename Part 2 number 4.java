@@ -1,13 +1,13 @@
-import java.util.Scanner;
+import java.util.Scanner; // initializing Scanner
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); //declaring Scanner
 
-        System.out.print("Please enter your age: ");
-        int age = input.nextInt();
+        System.out.print("Please enter your age: "); // input from the user
+        int age = input.nextInt(); // declaring the age
 
-        if (age < 13) {
+        if (age < 13) { //if statement
             System.out.println("You are a child.");
         } 
           else if (age >= 13 && age <= 19) {
