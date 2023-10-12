@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Let's play Rock, Paper, Scissors");
+        System.out.println("play Rock, Paper, Scissors");
         System.out.println("Pick what you want to choose for player 1");
         System.out.println("1. Rock");
         System.out.println("2. Paper");
