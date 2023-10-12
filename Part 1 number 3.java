@@ -1,14 +1,14 @@
-import java.util.Scanner;
+import java.util.Scanner; //Scaner initializatiom 
 class Main {
   public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);  //declare scanenr
     System.out.print("What is 32*91/2? ");
-    double data1 = input.nextDouble();
+    double data1 = input.nextDouble();// takes input from the user
   
-    if (data1 == 1456) {
+    if (data1 == 1456) { //if statement
     System.out.println("The answer is correct");
   }
-    else{
+    else{ 
       System.out.println("The answer is wrong");
     }
 
