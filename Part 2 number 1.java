@@ -4,11 +4,11 @@ class Main {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in); declaring Scanner
 
-    System.out.print("Enter the region that you're from: ");
+    System.out.print("Enter the region that you're from: ");//letting the user type the output
     
-    String data1 = input.nextLine(); //deca
+    String data1 = input.nextLine(); //declaring 
     
-    if (data1.equals("Toronto")) {
+    if (data1.equals("Toronto")) { //if statement
       System.out.println("CN Tower, Rogers Center, and Royal Ontario Museum are the places that you might want to visit in Toronto");
     } 
     else if (data1.equals("NorthYork")) {
