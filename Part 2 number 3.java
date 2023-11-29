@@ -1,8 +1,8 @@
-import java.util.Scanner; // initializing Scanner
+import java.util.Scanner; // declaring Scanner
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // declaring Scanner
+        Scanner input = new Scanner(System.in); // initializing  Scanner
 
         System.out.print("Enter three numbers:"); // get the input from the user
         double num1 = input.nextDouble(); // declaring num1
